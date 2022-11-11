@@ -41,7 +41,7 @@ console.log(typeof veiculos)
 
 let cliente = {
     nome: 'Godoy',
-    idade: 18 
+    idade: 18
 }
 
 console.log(cliente)
@@ -54,17 +54,45 @@ let salvar = function () {
 console.log(typeof salvar)
 
 /* operadores realacionais */
-console.log(10>3)
-console.log(5<3)
+console.log(10 > 3)
+console.log(5 < 3)
 console.log(15 >= 10)
 console.log(15 <= 10)
 console.log(10 == 10)
-console.log( 10 != 10)
+console.log(10 != 10)
 
 /* operadores lógicos */
 console.log('==========')
-console.log(10>3 && 10>5)
+console.log(10 > 3 && 10 > 5)
 
-console.log(10>3 || 10>15 || 10>8) //operador OU (OR)
+console.log(10 > 3 || 10 > 15 || 10 > 8) //operador OU (OR)
 
-console.log(!10>3) //Operador NÃO(NOT)
+console.log(!10 > 3) //Operador NÃO(NOT)
+
+//alert("Olá Mundo")
+
+
+function Rosa() {
+
+
+
+    //document.write("<h3>Olá Mundo</h3>")
+    document.getElementById('titulo').innerHTML = 'Aula 02 de JS'
+
+    document.getElementById('texto').innerHTML = 'Vamos estudar interação com o DOM'
+
+    document.body.style.backgroundColor = 'yellow'
+    document.body.style.color = 'black'
+
+
+
+
+
+}
+
+function Laranja() {
+    document.body.style.backgroundColor = 'orangered'
+    document.body.style.color = 'lightblue'
+}
+
+
